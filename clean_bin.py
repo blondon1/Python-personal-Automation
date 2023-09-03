@@ -1,5 +1,8 @@
-import schedule, winshell, time, os, shutil
-
+import schedule
+import winshell
+import time
+import os
+import shutil
 
 winTempFiles = 'C:\Windows\Temp'
 # Importing the required modules
@@ -27,7 +30,7 @@ def job():
             print('Failed to delete %s. Reason: %s' % (file_path, e))
 
 
-schedule.every(1).minutes.do(job)
+schedule.every(1).second.do(job)
 #schedule.every().hour.do(job)
 #schedule.every().day.at("10:30").do(job)
 
