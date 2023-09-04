@@ -1,4 +1,4 @@
-# OptimizedPc
+# Clean_bin
 ## Description
 
 The goal of this python script is to clean the recycle bin and the temp folder to improve the pc's performace on a predified timeframe/schedule.
