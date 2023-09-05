@@ -1,5 +1,5 @@
 # Chat-Web-App
-
+Chat room for your local network using python with flask 
 ## Setup
 
 Ensure you have python 3.6+ installed.
