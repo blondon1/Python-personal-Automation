@@ -13,11 +13,10 @@ def job():
 	    winshell.recycle_bin().empty(confirm=False,
 		    show_progress=False, sound=True)
 
-    # Print that the deletion in successful
 	    print("Recycle Bin is emptied now!")
 
     except:
-	    # Printing that the Recyclce-Bin is already Empty!
+	    
 	    print("Recycle Bin is already empty!")
 
 schedule.every(1).hour.do(job)
