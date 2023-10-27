@@ -1,5 +1,4 @@
 # Clean_bin
-## Description
 
 The goal of this python script is to clean the recycle bin to improve the pc's performace on a predified timeframe/schedule.
 It handles and tracks exeptions 
